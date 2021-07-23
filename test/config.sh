@@ -2,7 +2,6 @@
 
 globalTests+=(
 	utc
-	cve-2014--shellshock
 	no-hard-coded-passwords
 	override-cmd
 )
@@ -53,6 +52,9 @@ imageTests+=(
 	'
 	[convertigo]='
 		convertigo-hello-world
+	'
+	[dart]='
+		dart-hello-world
 	'
 	[debian]='
 		debian-apt-get
@@ -127,6 +129,8 @@ imageTests+=(
 	'
 	[monica]='
 		monica-cli
+		monica-cli-mysql8
+		monica-cli-mariadb10
 	'
 	[monica:apache]='
 		monica-apache-run
@@ -262,6 +266,9 @@ imageTests+=(
 	[tomcat]='
 		tomcat-hello-world
 	'
+	[varnish]='
+		varnish
+	'
 	[wordpress:apache]='
 		wordpress-apache-run
 	'
@@ -284,8 +291,6 @@ globalExcludeTests+=(
 	[nats-streaming_utc]=1
 	[nats_no-hard-coded-passwords]=1
 	[nats_utc]=1
-	[swarm_no-hard-coded-passwords]=1
-	[swarm_utc]=1
 	[traefik_no-hard-coded-passwords]=1
 	[traefik_utc]=1
 
@@ -317,10 +322,8 @@ globalExcludeTests+=(
 	[percona:psmdb_percona-rocksdb]=1
 
 	# windows!
-	[:nanoserver_cve-2014--shellshock]=1
 	[:nanoserver_no-hard-coded-passwords]=1
 	[:nanoserver_utc]=1
-	[:windowsservercore_cve-2014--shellshock]=1
 	[:windowsservercore_no-hard-coded-passwords]=1
 	[:windowsservercore_utc]=1
 
@@ -334,6 +337,10 @@ globalExcludeTests+=(
 	[traefik:windowsservercore_override-cmd]=1
 
 	# TODO adjust MongoDB tests to use docker networks instead of links so they can work on Windows (and consider using PowerShell to generate appropriate certificates for TLS tests instead of openssl)
+	[mongo:nanoserver_mongo-basics]=1
+	[mongo:nanoserver_mongo-auth-basics]=1
+	[mongo:nanoserver_mongo-tls-basics]=1
+	[mongo:nanoserver_mongo-tls-auth]=1
 	[mongo:windowsservercore_mongo-basics]=1
 	[mongo:windowsservercore_mongo-auth-basics]=1
 	[mongo:windowsservercore_mongo-tls-basics]=1

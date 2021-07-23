@@ -1,22 +1,37 @@
-# this file is generated via https://github.com/erlef/docker-elixir/blob/9339014a678ece55635c808a3eb0f84bac1bcdf3/generate-stackbrew-library.sh
+# this file is generated via https://github.com/erlef/docker-elixir/blob/d834e327cadfda82351c41054e57e2710c8aaf84/generate-stackbrew-library.sh
 
 Maintainers: . <c0b@users.noreply.github.com> (@c0b),
              Tristan Sloughter <t@crashfast.com> (@tsloughter)
 GitRepo: https://github.com/erlef/docker-elixir.git
 
-Tags: 1.11.2, 1.11, latest
+Tags: 1.12.2, 1.12, latest
 Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
-GitCommit: f226e68615d6955ee311b8d613c3c8ca843e9f51
+GitCommit: 2b5da5abf10f3026d01b6dda3c509f4f09f60063
+Directory: 1.12
+
+Tags: 1.12.2-slim, 1.12-slim, slim
+Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
+GitCommit: 2b5da5abf10f3026d01b6dda3c509f4f09f60063
+Directory: 1.12/slim
+
+Tags: 1.12.2-alpine, 1.12-alpine, alpine
+Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
+GitCommit: 2b5da5abf10f3026d01b6dda3c509f4f09f60063
+Directory: 1.12/alpine
+
+Tags: 1.11.4, 1.11
+Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
+GitCommit: 045351a425a16578309053fa8f729f046fcd616f
 Directory: 1.11
 
-Tags: 1.11.2-slim, 1.11-slim, slim
+Tags: 1.11.4-slim, 1.11-slim
 Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
-GitCommit: f226e68615d6955ee311b8d613c3c8ca843e9f51
+GitCommit: 045351a425a16578309053fa8f729f046fcd616f
 Directory: 1.11/slim
 
-Tags: 1.11.2-alpine, 1.11-alpine, alpine
+Tags: 1.11.4-alpine, 1.11-alpine
 Architectures: amd64, arm32v7, arm64v8, i386, s390x, ppc64le
-GitCommit: f226e68615d6955ee311b8d613c3c8ca843e9f51
+GitCommit: 045351a425a16578309053fa8f729f046fcd616f
 Directory: 1.11/alpine
 
 Tags: 1.10.4, 1.10

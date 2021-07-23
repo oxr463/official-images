@@ -1,41 +1,61 @@
-Maintainers: Jonathan A. Sternberg <jonathan@influxdata.com> (@jsternberg)
+Maintainers: Cody Shepherd (@codyshepherd), Daniel Moran <dmoran@influxdata.com> (@danxmoran)
 GitRepo: git://github.com/influxdata/influxdata-docker
-GitCommit: 6ffb9c8be705a1fd1672bc9b923fb97ebe3883c3
+GitCommit: c29f3dbf7ccb63ed94cd9639f46bf2b488fbe634
 
-Tags: 1.7, 1.7.10
+Tags: 1.7, 1.7.11
 Architectures: amd64, arm32v7, arm64v8
 Directory: influxdb/1.7
 
-Tags: 1.7-alpine, 1.7.10-alpine
+Tags: 1.7-alpine, 1.7.11-alpine
 Directory: influxdb/1.7/alpine
 
-Tags: 1.7-data, 1.7.10-data
+Tags: 1.7-data, 1.7.11-data
 Directory: influxdb/1.7/data
 
-Tags: 1.7-data-alpine, 1.7.10-data-alpine
+Tags: 1.7-data-alpine, 1.7.11-data-alpine
 Directory: influxdb/1.7/data/alpine
 
-Tags: 1.7-meta, 1.7.10-meta
+Tags: 1.7-meta, 1.7.11-meta
 Directory: influxdb/1.7/meta
 
-Tags: 1.7-meta-alpine, 1.7.10-meta-alpine
+Tags: 1.7-meta-alpine, 1.7.11-meta-alpine
 Directory: influxdb/1.7/meta/alpine
 
-Tags: 1.8, 1.8.3, latest
+Tags: 1.8, 1.8.6
 Architectures: amd64, arm32v7, arm64v8
 Directory: influxdb/1.8
 
-Tags: 1.8-alpine, 1.8.3-alpine, alpine
+Tags: 1.8-alpine, 1.8.6-alpine
 Directory: influxdb/1.8/alpine
 
-Tags: 1.8-data, 1.8.3-data, data
+Tags: 1.8-data, 1.8.6-data, data
 Directory: influxdb/1.8/data
 
-Tags: 1.8-data-alpine, 1.8.3-data-alpine, data-alpine
+Tags: 1.8-data-alpine, 1.8.6-data-alpine, data-alpine
 Directory: influxdb/1.8/data/alpine
 
-Tags: 1.8-meta, 1.8.3-meta, meta
+Tags: 1.8-meta, 1.8.6-meta, meta
 Directory: influxdb/1.8/meta
 
-Tags: 1.8-meta-alpine, 1.8.3-meta-alpine, meta-alpine
+Tags: 1.8-meta-alpine, 1.8.6-meta-alpine, meta-alpine
 Directory: influxdb/1.8/meta/alpine
+
+Tags: 1.9-data, 1.9.3-data
+Directory: influxdb/1.9/data
+
+Tags: 1.9-data-alpine, 1.9.3-data-alpine
+Directory: influxdb/1.9/data/alpine
+
+Tags: 1.9-meta, 1.9.3-meta
+Directory: influxdb/1.9/meta
+
+Tags: 1.9-meta-alpine, 1.9.3-meta-alpine
+Directory: influxdb/1.9/meta/alpine
+
+Tags: 2.0, 2.0.7, latest
+Architectures: amd64, arm64v8
+Directory: influxdb/2.0
+
+Tags: 2.0-alpine, 2.0.7-alpine, alpine
+Architectures: amd64, arm64v8
+Directory: influxdb/2.0/alpine

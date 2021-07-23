@@ -1,16 +1,13 @@
-Maintainers: Lucien Volmar <lucien@aerospike.com> (@volmarl)
+Maintainers: Lucien Volmar <lucien@aerospike.com> (@volmarl),
+             Michael Coberly <mcoberly@aerospike.com> (@mcoberly2),
+             Phuc Vinh <pvinh@aerospike.com> (@pvinh-spike)
 
-Tags: 5.0.0.18
+Tags: ee-5.6.0.8
+Architectures: amd64
+GitRepo: https://github.com/aerospike/aerospike-server-enterprise.docker.git
+GitCommit: 623072419e8ed71f1fff4c316fad3039b5880520
+
+Tags: ce-5.6.0.8
 Architectures: amd64
 GitRepo: https://github.com/aerospike/aerospike-server.docker.git
-GitCommit: 275445344b04f3e3a19f648e040f11b5c5b9cba1
-
-Tags: 5.1.0.15
-Architectures: amd64
-GitRepo: https://github.com/aerospike/aerospike-server.docker.git
-GitCommit: d96b1f8fdd030d4304d372bbc28d2b7bf6eac83d
-
-Tags: 5.2.0.7, latest
-Architectures: amd64
-GitRepo: https://github.com/aerospike/aerospike-server.docker.git
-GitCommit: 2ec77fa989856d6f41b669e60401cd058dec0b87
+GitCommit: 3134386a8ac092a2f770396f0444827d2497b376

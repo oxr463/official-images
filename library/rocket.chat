@@ -1,13 +1,21 @@
-# this file is generated via https://github.com/RocketChat/Docker.Official.Image/blob/9d6297118afd4a6b494b1b82cb4dc7f58e83e45d/generate-stackbrew-library.sh
+# this file is generated via https://github.com/RocketChat/Docker.Official.Image/blob/79d4e000c93b6d26f8a8956935017ddbf9d9e89f/generate-stackbrew-library.sh
 
 Maintainers: Rocket.Chat Image Team <buildmaster@rocket.chat> (@RocketChat)
 GitRepo: https://github.com/RocketChat/Docker.Official.Image.git
 
-Tags: 3.7.2, 3.7, 3, latest
-GitCommit: a96ceb8a394489ec06aba35b62cfb6d4c5936d61
-Directory: 3
+Tags: 3.16.2, 3.16, 3, latest
+GitCommit: 74d96d6cae29412ee6e2c7446c1b3b6f9e18ed15
+Directory: 3.16
 
-Tags: 2.4.12, 2.4, 2
-GitCommit: e40e10215ede26cb53eb2cbeaccea526703381f4
-Directory: 2
+Tags: 3.15.3, 3.15
+GitCommit: 74d96d6cae29412ee6e2c7446c1b3b6f9e18ed15
+Directory: 3.15
+
+Tags: 3.14.5, 3.14
+GitCommit: 2d2b9be110be03050cc9b47fa9b11a0b07f53a1b
+Directory: 3.14
+
+Tags: 2.4.14, 2.4, 2
+GitCommit: 8c163b1c5a8e077280d8dc2301ba75dfbfd52d32
+Directory: 2.4
 
